@@ -9,7 +9,7 @@ public class Main {
         Connection con = DriverDB.connectToDB();
         ResultSet rs = null;
        int procedura;
-        System.out.printf("Inserire il numero della procedura che si vuole eseguire:\n" +
+        System.out.println("Inserire il numero della procedura che si vuole eseguire:\n" +
                 "1: Visualizza posti occupati\n" +
                 "2: Visualizza Visite mediche per uno specifico Dottore\n" +
                 "3: Visualizza Interventi Chirurgici di un reparto in un determinato giorno\n" +
