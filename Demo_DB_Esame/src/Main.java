@@ -71,7 +71,7 @@ public class Main {
             System.out.println("");
         }
         }catch(SQLException ex){
-            System.out.printf(ex.toString());
+            System.out.println(ex.toString());
         }
 
     }
